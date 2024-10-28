@@ -11,7 +11,7 @@ class Particle {
     private double vx, vy;
     private int size = 5;
     // private Color color;
-    private int transparency = 50; // 0 - 255
+    private int transparency = 10; // 0 - 255
 
     public Particle(int x, int y) {
         this.x = x;
