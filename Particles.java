@@ -11,14 +11,14 @@ class Particle {
     private double vx, vy;
     private int size = 5;
     // private Color color;
-    private int transparency = 10; // 0 - 255
+    private int transparency = 15; // 0 - 255
 
     public Particle(int x, int y) {
         this.x = x;
         this.y = y;
         this.vx = new Random().nextDouble() * 4 - 2; 
         this.vy = new Random().nextDouble() * 4 - 2; 
-        this.vx = this.vy = 0;
+        // this.vx = this.vy = 0;
         // this.color = new Color(new Random().nextInt(256), new Random().nextInt(256), new Random().nextInt(256), transparency);
     }
 
@@ -70,13 +70,17 @@ class ParticleSimulation extends JPanel implements ActionListener {
     int numParticles = 250;
     private int delay = 25;
     int spacing = 5;
-
-    */
     
     int numParticles = 500;
     private int delay = 25;
     int spacing = 2;
-
+    
+    */
+    
+    int numParticles = 500;
+    private int delay = 5;
+    int spacing = 3;
+    
     public static int window_size = 1000;
     private ArrayList<Particle> particles;
     private Timer timer;
