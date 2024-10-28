@@ -19,8 +19,8 @@ class GUI:
 
         # Friction coefficient
         self.FrictionCOF = 0.999
-        self.ballRadius = 15 # measured in pixels (px)
-        self.numBalls =  250
+        self.ballRadius = 3 # measured in pixels (px)
+        self.numBalls =  2500
         # list of all the balls
         # spacing out all the balls
         # Each Ball has 4 properties - > speed, x location, y location, and angle (from horizontal right line)
